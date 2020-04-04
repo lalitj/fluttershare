@@ -71,8 +71,10 @@ class _HomeState extends State<Home> {
   }
 
   onTap(int pageIndex) {
-    pageController.jumpToPage(
+    pageController.animateToPage(
       pageIndex,
+      curve: Curves.easeInOut,
+      duration: Duration(milliseconds: 300),
     );
   }
 
