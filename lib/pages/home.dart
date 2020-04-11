@@ -146,6 +146,7 @@ class _HomeState extends State<Home> {
             ),
             BottomNavigationBarItem(icon: Icon(Icons.search)),
             BottomNavigationBarItem(icon: Icon(Icons.account_circle)),
+            BottomNavigationBarItem(icon: Icon(Icons.cancel)),
           ]),
     );
     // return RaisedButton(
